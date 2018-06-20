@@ -1,16 +1,14 @@
 @media only screen and (max-width: 1108px){
   .wrapper {
     width:90%;
-
   }
+
   #social {
     position: : absolute;
     top: 82px;
     right: 4%;
     width: auto;
-
-
-      }
+    }
 
   #social a {
     display: inline-block;
@@ -24,11 +22,9 @@
     width: 35px;
     height: 35px;
   }
-
   #logo h2{
     font-size: 2.2em;
   }
-
   #social {
     top: 72px;
   }
@@ -40,15 +36,17 @@
 }
 
 @media only screen and (max-width: 800px){
-#navbar nav a{
-  font-size: 0.9em;
+  #navbar nav a{
+    font-size: 0.9em;
+  }
 }
-
 @media only screen and (max-width: 750px){
   .col-1, .col-2, .col-3{
     width: 100%;
     margin-left: 0;
     float: none;
   }
-}
+  .border-right{
+    border: 0;
+  }
 }
